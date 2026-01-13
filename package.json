@@ -2,7 +2,7 @@
   "name": "01_basic_pp",
   "version": "1.0.0",
   "description": "",
-  "main": "/workspaces/01_Basic_PP/src/05_wahrheitswerte.js",
+  "main": "src/05_wahrheitswerte.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
