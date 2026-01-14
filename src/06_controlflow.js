@@ -31,15 +31,32 @@ console.log("------------------");
 //     console.log("John ist älter.");
 // }
 
- /************ IF - ELSE  ************/
+
+/************ IF - ELSE  ************/
 // mit Alternative  
 // entweder ja oder nein
 
 // if (true)
 // if(false)
+// if(isJohnOlder)
+// {
+//     console.log("John ist älter.");
+// }
+// else
+// {
+//     console.log("John ist jünger.");
+// }
+
+/************ IF - ELSE IF  ************/
+// mit alternativen Fällen (älter, jünger, gleich alt)
+
 if(isJohnOlder)
 {
     console.log("John ist älter.");
+}
+else if(isJohnEqual)   // alternative Zweig
+{
+    console.log("John ist gleich alt.");
 }
 else
 {
