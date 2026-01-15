@@ -16,15 +16,25 @@
 // 2a. Parametrisierung + Datenübergabe von INNEN
 
 // call
-ausgabeNamen();
+// ausgabeNamen();
 
 // Funktionalität
-function ausgabeNamen() {
+// function ausgabeNamen() {
     // interne Variable | What happens in VEGAS
-    let firstName = "Yasin";
+    // let firstName = "Yasin";
 
-    console.log("Hallo, " + firstName + "!");
-
-}
+    // console.log("Hallo, " + firstName + "!");
+// }
 
 // console.log(firstName); // Fehler Scope
+
+/***** Funktionen 02b *****/
+// 2b. Parametrisierung + Datenübergabe von AUSSEN
+
+ausgabeNamen2();
+ausgabeNamen2("Yasin"); // Argument --> Daten für Parameter
+
+
+function ausgabeNamen2(firstName) { // Parameter
+    console.log("Hallo, " + firstName + "!");
+}
